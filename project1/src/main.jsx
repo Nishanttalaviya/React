@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Stateexm3 from './lect3112/hook3';
+import Problem1 from './exercises/exercise1';
+import Problem2 from './exercises/exercise2';
+import Problem3 from './exercises/exercise3';
 //1. class base imlentions
 //2. functional imlentions
 
@@ -15,7 +17,7 @@ createRoot(document.getElementById('root')).render(
     <br />
     <MyCustButton var1={true} var2={"BTech"} />
   */}
- <Stateexm3/>
+ <Problem3/>
   </StrictMode>
 );
 
