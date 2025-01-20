@@ -6,6 +6,8 @@ import Problem2 from './exercises/exercise2';
 import Problem3 from './exercises/exercise3';
 import Items from './lec1801/useeffectex02';
 import Useeffect from './lec1801/useeffect';
+import ImageChanger from './lec1801/USeeffactex03';
+import Images from './lec1801/USeeffactex03';
 //1. class base imlentions
 //2. functional imlentions
 
@@ -19,7 +21,7 @@ createRoot(document.getElementById('root')).render(
     <br />
     <MyCustButton var1={true} var2={"BTech"} />
   */}
- <Useeffect/>
+ <ImageChanger/>
   </StrictMode>
 );
 

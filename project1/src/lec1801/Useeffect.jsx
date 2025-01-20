@@ -11,9 +11,8 @@ function fetchUserData() {
 function Useeffect() {
   const [name, setName] = React.useState("loading...");
   const [id, setId] = React.useState("loading...");
-  const [mm, setMM] = React.useState(5); // Initial minutes
-  const [ss, setSS] = React.useState(0); // Initial seconds
-
+  const [mm, setMM] = React.useState(5); 
+  const [ss, setSS] = React.useState(0); 
   React.useEffect(() => {
     let timer;
 
@@ -54,3 +53,6 @@ function Useeffect() {
 }
 
 export default Useeffect;
+
+//implement image changer with useeffect
+//create list of images change images at interval of seconds
