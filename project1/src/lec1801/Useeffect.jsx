@@ -56,3 +56,4 @@ export default Useeffect;
 
 //implement image changer with useeffect
 //create list of images change images at interval of seconds
+

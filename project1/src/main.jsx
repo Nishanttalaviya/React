@@ -8,6 +8,8 @@ import Items from './lec1801/useeffectex02';
 import Useeffect from './lec1801/useeffect';
 import ImageChanger from './lec1801/USeeffactex03';
 import Images from './lec1801/USeeffactex03';
+import CustomCom from './lec2101/compo';
+import Cricketer from './lec2101/register';
 //1. class base imlentions
 //2. functional imlentions
 
