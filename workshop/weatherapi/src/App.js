@@ -1,8 +1,8 @@
-import { fetchWeather } from "./openWeatherMap";
-import Weather from "./components/Weather";
+import AlphanumericInput from "./components/practice/practice1";
+import ColorPicker from "./components/practice/practice3";
 function App() {
   return (
-    <Weather></Weather>
+<AlphanumericInput></AlphanumericInput>
   );
 }
 
