@@ -1,5 +1,5 @@
 {
-  "name": "mydemo1",
+  "name": "rk-express",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -10,9 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^2.0.2",
     "cookie-parser": "^1.4.7",
-    "core-js": "^3.40.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.0.1",
