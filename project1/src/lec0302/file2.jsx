@@ -13,7 +13,7 @@ export const ProvideUserDetails = () => {
   )
 }
 
-export const page1 = () => {
+export const Page1 = () => {
     return (
         <div>
             <h1>Page 1</h1>
@@ -36,6 +36,6 @@ export const page3 = () => {
     <div>
       <h1>Page 3</h1>
       <ProvideUserDetails />
-    </div>
-  );
+  </div>
+);
 };

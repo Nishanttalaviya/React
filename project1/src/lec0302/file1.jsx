@@ -12,7 +12,7 @@ const FetchUser = () => {
     }, 5000);
   })
 }
-export const UserProvider = ({children}) => {
+ export const UserProvider = ({children}) => {
   const [user, setuser] = useState({
     id: "loading...",
     name: "loading..."
@@ -28,3 +28,5 @@ export const UserProvider = ({children}) => {
     </UserContext.Provider>
   )
 }
+
+
